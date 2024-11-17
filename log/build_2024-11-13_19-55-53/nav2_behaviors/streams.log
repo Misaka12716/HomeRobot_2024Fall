@@ -1,0 +1,146 @@
+[0.155s] Invoking command in '/home/misaka/fishbot/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_behavior_tree/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_behaviors
+[0.378s] -- The C compiler identification is GNU 11.4.0
+[0.602s] -- The CXX compiler identification is GNU 11.4.0
+[0.631s] -- Detecting C compiler ABI info
+[0.917s] -- Detecting C compiler ABI info - done
+[0.939s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.940s] -- Detecting C compile features
+[0.942s] -- Detecting C compile features - done
+[0.951s] -- Detecting CXX compiler ABI info
+[1.286s] -- Detecting CXX compiler ABI info - done
+[1.312s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.313s] -- Detecting CXX compile features
+[1.314s] -- Detecting CXX compile features - done
+[1.326s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.889s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.237s] -- Found nav2_common: 1.1.0 (/home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake)
+[2.246s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.425s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.450s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.483s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.802s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.814s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.209s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.306s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.490s] -- Looking for pthread.h
+[3.827s] -- Looking for pthread.h - found
+[3.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.183s] -- Found Threads: TRUE  
+[4.366s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.492s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.567s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.685s] -- Found nav2_behavior_tree: 1.1.0 (/home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[5.212s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.217s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.218s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.456s] -- Found nav2_costmap_2d: 1.1.0 (/home/misaka/fishbot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[5.756s] -- Found nav2_core: 1.1.0 (/home/misaka/fishbot/install/nav2_core/share/nav2_core/cmake)
+[5.797s] -- Setting build type to Release as none was specified.
+[11.606s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.001s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.584s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.592s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.598s] -- Configured cppcheck include dirs: /home/misaka/fishbot/src/navigation/nav2_behaviors/include
+[12.598s] -- Configured cppcheck exclude dirs and/or files: 
+[12.605s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.606s] -- Configured cpplint exclude dirs and/or files: 
+[12.609s] -- Added test 'lint_cmake' to check CMake code style
+[12.618s] -- Added test 'uncrustify' to check C / C++ code style
+[12.618s] -- Configured uncrustify additional arguments: 
+[12.622s] -- Added test 'xmllint' to check XML markup files
+[12.640s] -- Configuring done
+[14.731s] -- Generating done
+[14.741s] -- Build files have been written to: /home/misaka/fishbot/build/nav2_behaviors
+[14.801s] Invoked command in '/home/misaka/fishbot/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_behavior_tree/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_behaviors
+[14.823s] Invoking command in '/home/misaka/fishbot/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_behavior_tree/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_behaviors -- -j16 -l16
+[15.138s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[15.144s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[15.147s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[15.151s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[15.152s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[15.158s] [ 30%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[15.159s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.163s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[19.324s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[19.545s] [ 45%] Built target gtest_main
+[47.558s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[47.812s] [ 50%] Built target gtest
+[47.960s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[52.279s] [ 60%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[53.248s] [ 65%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[53.726s] [ 65%] Built target nav2_wait_behavior
+[54.663s] [ 65%] Built target nav2_drive_on_heading_behavior
+[55.345s] [ 70%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[55.474s] [ 75%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[56.771s] [ 75%] Built target nav2_spin_behavior
+[57.009s] [ 75%] Built target nav2_back_up_behavior
+[57.690s] [ 80%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[58.854s] [ 80%] Built target behavior_server_core
+[58.973s] [ 85%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[74.067s] [ 90%] [32m[1mLinking CXX executable behavior_server[0m
+[75.092s] [ 90%] Built target behavior_server
+[84.420s] [ 95%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[85.844s] [ 95%] Built target nav2_assisted_teleop_behavior
+[87.542s] [100%] [32m[1mLinking CXX executable test_behaviors[0m
+[88.887s] [100%] Built target test_behaviors
+[88.935s] Invoked command in '/home/misaka/fishbot/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_behavior_tree/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_behaviors -- -j16 -l16
+[89.253s] Invoking command in '/home/misaka/fishbot/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_behavior_tree/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_behaviors
+[89.285s] -- Install configuration: "Release"
+[89.285s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[89.287s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/lib/libbehavior_server_core.so
+[89.292s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behaviors/lib/libbehavior_server_core.so" to ""
+[89.292s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[89.297s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_spin_behavior.so" to ""
+[89.297s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[89.301s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_wait_behavior.so" to ""
+[89.302s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[89.309s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so" to ""
+[89.309s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[89.314s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so" to ""
+[89.315s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[89.317s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behaviors/lib/libnav2_back_up_behavior.so" to ""
+[89.318s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[89.320s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behaviors/lib/nav2_behaviors/behavior_server" to ""
+[89.320s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/include/
+[89.321s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/include//nav2_behaviors
+[89.321s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[89.324s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[89.325s] -- Up-to-date: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[89.325s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins/
+[89.326s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.hpp
+[89.327s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+[89.327s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.hpp
+[89.328s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+[89.329s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.hpp
+[89.330s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+[89.330s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+[89.331s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+[89.334s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.hpp
+[89.334s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.hpp
+[89.335s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[89.336s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[89.337s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[89.337s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[89.338s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[89.338s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[89.338s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[89.339s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[89.339s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[89.340s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[89.340s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[89.340s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[89.341s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[89.341s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[89.341s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[89.341s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[89.342s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[89.342s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[89.342s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[89.342s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[89.342s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[89.342s] -- Installing: /home/misaka/fishbot/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[89.348s] Invoked command in '/home/misaka/fishbot/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_behavior_tree:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_behavior_tree/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_behaviors

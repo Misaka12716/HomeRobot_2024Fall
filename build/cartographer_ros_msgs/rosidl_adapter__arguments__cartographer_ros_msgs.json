@@ -1,0 +1,25 @@
+{
+  "package_name": "cartographer_ros_msgs",
+  "non_idl_tuples": [
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/BagfileProgress.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/HistogramBucket.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/LandmarkEntry.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/LandmarkList.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/MetricFamily.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/MetricLabel.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/Metric.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/StatusCode.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/StatusResponse.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/SubmapEntry.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/SubmapList.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/SubmapTexture.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:msg/TrajectoryStates.msg",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:srv/FinishTrajectory.srv",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:srv/GetTrajectoryStates.srv",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:srv/ReadMetrics.srv",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:srv/StartTrajectory.srv",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:srv/TrajectoryQuery.srv",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:srv/SubmapQuery.srv",
+    "/home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros_msgs:srv/WriteState.srv"
+  ]
+}

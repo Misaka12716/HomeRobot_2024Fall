@@ -1,0 +1,160 @@
+[0.073s] Invoking command in '/home/misaka/fishbot/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros/lib:/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_rviz -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/cartographer_rviz
+[0.628s] -- The C compiler identification is GNU 11.4.0
+[0.892s] -- The CXX compiler identification is GNU 11.4.0
+[0.968s] -- Detecting C compiler ABI info
+[1.330s] -- Detecting C compiler ABI info - done
+[1.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.357s] -- Detecting C compile features
+[1.360s] -- Detecting C compile features - done
+[1.380s] -- Detecting CXX compiler ABI info
+[1.727s] -- Detecting CXX compiler ABI info - done
+[1.752s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.754s] -- Detecting CXX compile features
+[1.755s] -- Detecting CXX compile features - done
+[1.782s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.476s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.942s] -- Looking for pthread.h
+[3.268s] -- Looking for pthread.h - found
+[3.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.582s] -- Found Threads: TRUE  
+[3.624s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[3.658s] -- Found required Ceres dependency: glog
+[3.660s] -- Found required Ceres dependency: gflags
+[3.664s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[3.706s] -- Build type: Release
+[3.741s] 文件 /home/misaka/fishbot/build/cartographer_rviz/AllFiles.cmake 和 - 不同
+[3.867s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[3.873s] -- Found cartographer_ros: 2.0.9000 (/home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/cmake)
+[4.121s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.156s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.222s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.146s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.163s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.765s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.548s] -- Checking for module 'eigen3'
+[6.620s] --   Found eigen3, version 3.4.0
+[6.816s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.816s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.014s] -- Checking for module 'flann'
+[7.088s] --   Found flann, version 1.9.1
+[7.304s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[7.305s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[12.390s] -- Checking for module 'libusb-1.0'
+[12.483s] --   Found libusb-1.0, version 1.0.25
+[12.704s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[12.712s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.042s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.672s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[13.703s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.739s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[14.333s] -- Found Qhull version 8.0.2
+[14.931s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.576s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[15.580s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[15.589s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[15.604s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[15.606s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[15.610s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[15.612s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[15.613s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[15.618s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[15.621s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[15.630s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[15.631s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[15.636s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[15.640s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[15.644s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[15.648s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[15.651s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[15.658s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[15.663s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[15.668s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[15.672s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[15.672s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[15.676s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[15.683s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[15.687s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[16.832s] -- Found rviz_common: 11.2.13 (/opt/ros/humble/share/rviz_common/cmake)
+[16.884s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[16.927s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[16.941s] -- Found OGRE
+[16.942s] --   static     : OFF
+[16.942s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[16.942s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[16.942s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[16.943s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[16.944s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[16.944s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[16.944s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[16.944s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[16.945s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[16.945s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[16.945s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[16.969s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[16.977s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[17.075s] -- Found X11: /usr/include   
+[17.577s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[17.703s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.704s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.152s] -- Deploy OGRE media
+[18.177s] -- Configuring done
+[18.808s] -- Generating done
+[18.817s] -- Build files have been written to: /home/misaka/fishbot/build/cartographer_rviz
+[18.893s] Invoked command in '/home/misaka/fishbot/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros/lib:/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_rviz -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/cartographer_rviz
+[18.906s] Invoking command in '/home/misaka/fishbot/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros/lib:/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/cartographer_rviz -- -j16 -l16
+[19.157s] [ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[19.202s] [ 16%] Built target cartographer_rviz_detect_changes
+[25.544s] [ 16%] Built target cartographer_rviz_autogen
+[25.656s] [ 33%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o[0m
+[25.656s] [ 50%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/ogre_slice.cpp.o[0m
+[25.658s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/submaps_display.cpp.o[0m
+[25.660s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o[0m
+[95.350s] [100%] [32m[1mLinking CXX shared library libcartographer_rviz.so[0m
+[100.993s] [100%] Built target cartographer_rviz
+[101.038s] Invoked command in '/home/misaka/fishbot/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros/lib:/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/cartographer_rviz -- -j16 -l16
+[101.334s] Invoking command in '/home/misaka/fishbot/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros/lib:/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/cartographer_rviz
+[101.372s] -- Install configuration: "Release"
+[101.373s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/rviz_plugin_description.xml
+[101.375s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/lib/libcartographer_rviz.so
+[101.401s] -- Set runtime path of "/home/misaka/fishbot/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""
+[101.402s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/include/
+[101.402s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/include//cartographer_rviz
+[101.403s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/include//cartographer_rviz/submaps_display.h
+[101.404s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/include//cartographer_rviz/ogre_slice.h
+[101.405s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/include//cartographer_rviz/drawable_submap.h
+[101.406s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+[101.407s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+[101.407s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+[101.409s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+[101.410s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+[101.411s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+[101.411s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+[101.412s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+[101.413s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+[101.413s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+[101.413s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+[101.414s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+[101.415s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+[101.415s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+[101.416s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+[101.417s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+[101.418s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+[101.419s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+[101.420s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+[101.420s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+[101.421s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+[101.421s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+[101.422s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+[101.422s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake
+[101.422s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+[101.422s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[101.422s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[101.422s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+[101.422s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+[101.423s] -- Installing: /home/misaka/fishbot/install/cartographer_rviz/share/cartographer_rviz/package.xml
+[101.431s] Invoked command in '/home/misaka/fishbot/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros:/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros/lib:/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/cartographer_rviz

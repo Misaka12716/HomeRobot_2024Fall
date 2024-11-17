@@ -1,0 +1,96 @@
+[0.141s] Invoking command in '/home/misaka/fishbot/build/costmap_queue': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_dwb_controller/costmap_queue -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/costmap_queue
+[0.602s] -- The C compiler identification is GNU 11.4.0
+[0.854s] -- The CXX compiler identification is GNU 11.4.0
+[0.900s] -- Detecting C compiler ABI info
+[1.213s] -- Detecting C compiler ABI info - done
+[1.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.240s] -- Detecting C compile features
+[1.243s] -- Detecting C compile features - done
+[1.258s] -- Detecting CXX compiler ABI info
+[1.617s] -- Detecting CXX compiler ABI info - done
+[1.648s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.648s] -- Detecting CXX compile features
+[1.649s] -- Detecting CXX compile features - done
+[1.683s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.457s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.057s] -- Found nav2_common: 1.1.0 (/home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake)
+[3.062s] -- Found nav2_costmap_2d: 1.1.0 (/home/misaka/fishbot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[3.354s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.388s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.447s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.170s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.195s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.754s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.872s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.025s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.093s] -- Looking for pthread.h
+[5.428s] -- Looking for pthread.h - found
+[5.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.794s] -- Found Threads: TRUE  
+[7.254s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.254s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.879s] -- Setting build type to Release as none was specified.
+[7.970s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.505s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.779s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.782s] -- Configured cppcheck include dirs: /home/misaka/fishbot/src/navigation/nav2_dwb_controller/costmap_queue/include
+[8.784s] -- Configured cppcheck exclude dirs and/or files: 
+[8.789s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.789s] -- Configured cpplint exclude dirs and/or files: 
+[8.797s] -- Added test 'lint_cmake' to check CMake code style
+[8.806s] -- Added test 'uncrustify' to check C / C++ code style
+[8.806s] -- Configured uncrustify additional arguments: 
+[8.810s] -- Added test 'xmllint' to check XML markup files
+[8.832s] -- Configuring done
+[9.502s] -- Generating done
+[9.510s] -- Build files have been written to: /home/misaka/fishbot/build/costmap_queue
+[9.551s] Invoked command in '/home/misaka/fishbot/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_dwb_controller/costmap_queue -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/costmap_queue
+[9.559s] Invoking command in '/home/misaka/fishbot/build/costmap_queue': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/costmap_queue -- -j16 -l16
+[9.834s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.837s] [ 18%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/costmap_queue.cpp.o[0m
+[9.842s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.849s] [ 36%] [32mBuilding CXX object CMakeFiles/costmap_queue.dir/src/limited_costmap_queue.cpp.o[0m
+[13.833s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.062s] [ 45%] Built target gtest_main
+[14.973s] [ 54%] [32m[1mLinking CXX static library libcostmap_queue.a[0m
+[15.123s] [ 54%] Built target costmap_queue
+[36.890s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[37.102s] [ 63%] Built target gtest
+[37.243s] [ 72%] [32mBuilding CXX object CMakeFiles/utest.dir/test/utest.cpp.o[0m
+[37.255s] [ 81%] [32mBuilding CXX object CMakeFiles/mbq_test.dir/test/mbq_test.cpp.o[0m
+[43.149s] [ 90%] [32m[1mLinking CXX executable mbq_test[0m
+[46.159s] [ 90%] Built target mbq_test
+[51.022s] [100%] [32m[1mLinking CXX executable utest[0m
+[52.132s] [100%] Built target utest
+[52.173s] Invoked command in '/home/misaka/fishbot/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/costmap_queue -- -j16 -l16
+[52.399s] Invoking command in '/home/misaka/fishbot/build/costmap_queue': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/costmap_queue
+[52.440s] -- Install configuration: "Release"
+[52.441s] -- Installing: /home/misaka/fishbot/install/costmap_queue/lib/libcostmap_queue.a
+[52.441s] -- Installing: /home/misaka/fishbot/install/costmap_queue/include/
+[52.443s] -- Installing: /home/misaka/fishbot/install/costmap_queue/include//costmap_queue
+[52.445s] -- Installing: /home/misaka/fishbot/install/costmap_queue/include//costmap_queue/map_based_queue.hpp
+[52.445s] -- Installing: /home/misaka/fishbot/install/costmap_queue/include//costmap_queue/limited_costmap_queue.hpp
+[52.445s] -- Installing: /home/misaka/fishbot/install/costmap_queue/include//costmap_queue/costmap_queue.hpp
+[52.446s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/environment/library_path.sh
+[52.446s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/environment/library_path.dsv
+[52.447s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/ament_index/resource_index/package_run_dependencies/costmap_queue
+[52.448s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/ament_index/resource_index/parent_prefix_path/costmap_queue
+[52.448s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.sh
+[52.449s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/environment/ament_prefix_path.dsv
+[52.449s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/environment/path.sh
+[52.449s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/environment/path.dsv
+[52.451s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/local_setup.bash
+[52.451s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/local_setup.sh
+[52.451s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/local_setup.zsh
+[52.452s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/local_setup.dsv
+[52.452s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/package.dsv
+[52.452s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/ament_index/resource_index/packages/costmap_queue
+[52.452s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_include_directories-extras.cmake
+[52.453s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/cmake/ament_cmake_export_libraries-extras.cmake
+[52.453s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig.cmake
+[52.453s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/cmake/costmap_queueConfig-version.cmake
+[52.453s] -- Installing: /home/misaka/fishbot/install/costmap_queue/share/costmap_queue/package.xml
+[52.459s] Invoked command in '/home/misaka/fishbot/build/costmap_queue' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/costmap_queue

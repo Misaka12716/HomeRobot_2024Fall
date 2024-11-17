@@ -1,0 +1,211 @@
+[0.138s] Invoking command in '/home/misaka/fishbot/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_smac_planner
+[0.411s] -- The C compiler identification is GNU 11.4.0
+[0.691s] -- The CXX compiler identification is GNU 11.4.0
+[0.724s] -- Detecting C compiler ABI info
+[1.051s] -- Detecting C compiler ABI info - done
+[1.074s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.075s] -- Detecting C compile features
+[1.076s] -- Detecting C compile features - done
+[1.095s] -- Detecting CXX compiler ABI info
+[1.449s] -- Detecting CXX compiler ABI info - done
+[1.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.473s] -- Detecting CXX compile features
+[1.473s] -- Detecting CXX compile features - done
+[1.484s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.036s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.390s] -- Found nav2_common: 1.1.0 (/home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake)
+[2.399s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.566s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.586s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.622s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.903s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.916s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.309s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.410s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.604s] -- Looking for pthread.h
+[3.912s] -- Looking for pthread.h - found
+[3.913s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.233s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.237s] -- Found Threads: TRUE  
+[4.445s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.572s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.657s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.841s] -- Found nav2_util: 1.1.0 (/home/misaka/fishbot/install/nav2_util/share/nav2_util/cmake)
+[5.273s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.277s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.277s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.381s] -- Found nav2_core: 1.1.0 (/home/misaka/fishbot/install/nav2_core/share/nav2_core/cmake)
+[5.706s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[6.747s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[7.096s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[7.097s] -- Found OpenMP: TRUE (found version "4.5")  
+[7.106s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[7.107s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[8.846s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.215s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.856s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.878s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.882s] -- Configured cppcheck include dirs: /home/misaka/fishbot/src/navigation/nav2_smac_planner/include
+[12.882s] -- Configured cppcheck exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[12.902s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.903s] -- Configured cpplint exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[12.907s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.914s] -- Added test 'lint_cmake' to check CMake code style
+[12.920s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.941s] -- Added test 'uncrustify' to check C / C++ code style
+[12.942s] -- Configured uncrustify additional arguments: 
+[12.946s] -- Added test 'xmllint' to check XML markup files
+[12.956s] -- Configuring done
+[16.055s] -- Generating done
+[16.066s] -- Build files have been written to: /home/misaka/fishbot/build/nav2_smac_planner
+[16.119s] Invoked command in '/home/misaka/fishbot/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_smac_planner
+[16.129s] Invoking command in '/home/misaka/fishbot/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_smac_planner -- -j16 -l16
+[16.393s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[16.394s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[16.394s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[16.395s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[16.396s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[16.397s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[16.397s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[16.398s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[16.398s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[16.399s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o[0m
+[16.399s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.407s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o[0m
+[16.419s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o[0m
+[16.420s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o[0m
+[16.420s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o[0m
+[16.422s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[20.923s] [ 28%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.176s] [ 28%] Built target gtest_main
+[21.246s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[36.513s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o[0m
+[36.533s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[53.191s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[62.523s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[63.765s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o[0m
+[108.303s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[108.677s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[109.379s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[110.416s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[111.461s] [ 47%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[117.043s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[178.886s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o[0m
+[188.888s] [ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[188.968s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o[0m
+[189.255s] [ 54%] Built target gtest
+[199.248s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[205.634s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o[0m
+[219.707s] [ 59%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[222.509s] [ 59%] Built target nav2_smac_planner
+[222.740s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[222.740s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[222.757s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[222.758s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[222.758s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[222.767s] [ 69%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[222.775s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[222.777s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[223.607s] [ 74%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[225.832s] [ 74%] Built target nav2_smac_planner_2d
+[226.008s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[228.757s] [ 77%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[231.492s] [ 77%] Built target nav2_smac_planner_lattice
+[231.694s] [ 79%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[231.702s] [ 81%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[243.725s] [ 83%] [32m[1mLinking CXX executable test_collision_checker[0m
+[245.844s] [ 83%] Built target test_collision_checker
+[252.115s] [ 84%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[254.384s] [ 84%] Built target test_costmap_downsampler
+[259.621s] [ 86%] [32m[1mLinking CXX executable test_node2d[0m
+[260.177s] [ 88%] [32m[1mLinking CXX executable test_nodebasic[0m
+[260.215s] [ 89%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[260.453s] [ 89%] Built target test_node2d
+[260.651s] [ 89%] Built target test_nodebasic
+[260.959s] [ 89%] Built target test_nodehybrid
+[264.155s] [ 91%] [32m[1mLinking CXX executable test_a_star[0m
+[265.029s] [ 91%] Built target test_a_star
+[266.433s] [ 93%] [32m[1mLinking CXX executable test_lattice_node[0m
+[266.511s] [ 94%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[266.703s] [ 96%] [32m[1mLinking CXX executable test_smac_2d[0m
+[267.468s] [ 96%] Built target test_lattice_node
+[267.806s] [ 96%] Built target test_smac_hybrid
+[267.848s] [ 96%] Built target test_smac_2d
+[269.234s] [ 98%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[270.320s] [100%] [32m[1mLinking CXX executable test_smoother[0m
+[270.445s] [100%] Built target test_smac_lattice
+[271.493s] [100%] Built target test_smoother
+[272.082s] Invoked command in '/home/misaka/fishbot/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_smac_planner -- -j16 -l16
+[272.931s] Invoking command in '/home/misaka/fishbot/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_smac_planner
+[272.942s] -- Install configuration: "Release"
+[272.944s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml
+[272.947s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml
+[272.949s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml
+[272.952s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[272.957s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""
+[272.957s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[272.961s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""
+[272.961s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[272.964s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""
+[272.964s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include/
+[272.965s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner
+[272.966s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[272.966s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[272.967s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty
+[272.967s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[272.968s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[272.968s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[272.968s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[272.968s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[272.969s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[272.969s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[272.969s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[272.969s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[272.969s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[272.969s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[272.969s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[272.970s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[272.971s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[272.971s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives
+[272.971s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution
+[272.971s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius
+[272.971s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[272.972s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[272.973s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[272.974s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[272.975s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[272.977s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[272.978s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[272.979s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius
+[272.980s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[272.982s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[272.982s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[272.986s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[272.986s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[272.987s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[272.988s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[272.998s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[273.002s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[273.016s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[273.019s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[273.025s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[273.027s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[273.028s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[273.030s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[273.033s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[273.034s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[273.035s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[273.036s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[273.038s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[273.041s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[273.042s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[273.045s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[273.047s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[273.049s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[273.052s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[273.054s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[273.056s] -- Installing: /home/misaka/fishbot/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[273.088s] Invoked command in '/home/misaka/fishbot/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_smac_planner

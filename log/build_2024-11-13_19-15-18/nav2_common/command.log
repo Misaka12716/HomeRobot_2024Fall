@@ -1,0 +1,6 @@
+Invoking command in '/home/misaka/fishbot/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_common -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_common
+Invoked command in '/home/misaka/fishbot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_common -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_common
+Invoking command in '/home/misaka/fishbot/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_common -- -j16 -l16
+Invoked command in '/home/misaka/fishbot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_common -- -j16 -l16
+Invoking command in '/home/misaka/fishbot/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_common
+Invoked command in '/home/misaka/fishbot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_common

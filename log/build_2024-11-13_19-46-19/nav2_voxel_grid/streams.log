@@ -1,0 +1,39 @@
+[0.058s] Invoking command in '/home/misaka/fishbot/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_voxel_grid -- -j16 -l16
+[0.320s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.320s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid[0m
+[0.326s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.396s] [ 20%] Built target gtest_main
+[0.400s] [ 40%] Built target gtest
+[0.473s] [ 60%] Built target voxel_grid
+[0.539s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_tests[0m
+[0.540s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_bresenham_3d[0m
+[0.628s] [ 80%] Built target voxel_grid_bresenham_3d
+[0.630s] [100%] Built target voxel_grid_tests
+[0.688s] Invoked command in '/home/misaka/fishbot/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_voxel_grid -- -j16 -l16
+[0.931s] Invoking command in '/home/misaka/fishbot/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_voxel_grid
+[0.998s] -- Install configuration: "Release"
+[1.011s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[1.012s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/include
+[1.012s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/include/nav2_voxel_grid
+[1.014s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[1.015s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[1.016s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[1.017s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[1.019s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[1.019s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[1.019s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[1.019s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[1.020s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[1.020s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[1.020s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[1.021s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[1.021s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[1.021s] -- Installing: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[1.022s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[1.022s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.023s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.023s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[1.023s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[1.024s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[1.028s] -- Up-to-date: /home/misaka/fishbot/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[1.054s] Invoked command in '/home/misaka/fishbot/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_voxel_grid

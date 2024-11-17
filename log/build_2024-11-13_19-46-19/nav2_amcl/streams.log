@@ -1,0 +1,10 @@
+[0.172s] Invoking command in '/home/misaka/fishbot/build/nav2_amcl': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_amcl -- -j16 -l16
+[0.553s] [35m[1mConsolidate compiler generated dependencies of target map_lib[0m
+[0.554s] [35m[1mConsolidate compiler generated dependencies of target pf_lib[0m
+[0.705s] [ 20%] Built target map_lib
+[0.715s] [ 50%] Built target pf_lib
+[0.904s] [35m[1mConsolidate compiler generated dependencies of target sensors_lib[0m
+[0.918s] [35m[1mConsolidate compiler generated dependencies of target motions_lib[0m
+[1.060s] [ 70%] Built target sensors_lib
+[1.067s] [ 83%] Built target motions_lib
+[1.369s] [ 87%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m

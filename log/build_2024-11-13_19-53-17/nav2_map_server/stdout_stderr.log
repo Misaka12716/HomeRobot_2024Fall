@@ -1,0 +1,14 @@
+[  5%] Built target gtest_main
+[ 19%] Built target gtest
+[ 19%] Built target map_io
+[ 30%] Built target map_server_core
+[ 38%] Built target test_map_saver_publisher
+[ 47%] Built target test_map_saver_cli
+[ 52%] Built target map_server
+[ 55%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[ 61%] Built target costmap_filter_info_server
+[ 66%] Built target map_saver_server
+[ 75%] Built target test_map_io
+[ 77%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[ 86%] Built target test_map_saver_node
+[ 91%] Built target map_saver_cli

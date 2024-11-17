@@ -1,0 +1,110 @@
+[0.252s] Invoking command in '/home/misaka/fishbot/build/nav2_smoother': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_smoother
+[0.693s] -- The C compiler identification is GNU 11.4.0
+[0.980s] -- The CXX compiler identification is GNU 11.4.0
+[1.045s] -- Detecting C compiler ABI info
+[1.358s] -- Detecting C compiler ABI info - done
+[1.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.391s] -- Detecting C compile features
+[1.394s] -- Detecting C compile features - done
+[1.405s] -- Detecting CXX compiler ABI info
+[1.757s] -- Detecting CXX compiler ABI info - done
+[1.781s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.782s] -- Detecting CXX compile features
+[1.782s] -- Detecting CXX compile features - done
+[1.828s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.163s] -- Found nav2_core: 1.1.0 (/home/misaka/fishbot/install/nav2_core/share/nav2_core/cmake)
+[3.526s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.567s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.635s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.477s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.501s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.075s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.177s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.296s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.357s] -- Looking for pthread.h
+[5.674s] -- Looking for pthread.h - found
+[5.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.937s] -- Found Threads: TRUE  
+[7.884s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.885s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.556s] -- Found nav2_common: 1.1.0 (/home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake)
+[8.576s] -- Found nav_2d_utils: 1.1.0 (/home/misaka/fishbot/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[8.743s] -- Setting build type to Release as none was specified.
+[10.269s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.759s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.587s] -- Configured cppcheck include dirs: /home/misaka/fishbot/src/navigation/nav2_smoother/include
+[11.588s] -- Configured cppcheck exclude dirs and/or files: 
+[11.594s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.595s] -- Configured cpplint exclude dirs and/or files: 
+[11.601s] -- Added test 'lint_cmake' to check CMake code style
+[11.610s] -- Added test 'uncrustify' to check C / C++ code style
+[11.610s] -- Configured uncrustify additional arguments: 
+[11.614s] -- Added test 'xmllint' to check XML markup files
+[11.647s] -- Configuring done
+[12.850s] -- Generating done
+[12.852s] -- Build files have been written to: /home/misaka/fishbot/build/nav2_smoother
+[12.890s] Invoked command in '/home/misaka/fishbot/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_smoother
+[12.902s] Invoking command in '/home/misaka/fishbot/build/nav2_smoother': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_smoother -- -j16 -l16
+[13.155s] [  7%] [32mBuilding CXX object CMakeFiles/smoother_server_core.dir/src/nav2_smoother.cpp.o[0m
+[13.159s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.159s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[13.168s] [ 28%] [32mBuilding CXX object CMakeFiles/simple_smoother.dir/src/simple_smoother.cpp.o[0m
+[16.957s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[17.151s] [ 35%] Built target gtest_main
+[33.408s] [ 42%] [32m[1mLinking CXX shared library libsimple_smoother.so[0m
+[34.527s] [ 42%] Built target simple_smoother
+[40.458s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[40.637s] [ 50%] Built target gtest
+[40.750s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_simple_smoother.dir/test_simple_smoother.cpp.o[0m
+[62.436s] [ 64%] [32m[1mLinking CXX executable test_simple_smoother[0m
+[63.615s] [ 64%] Built target test_simple_smoother
+[67.673s] [ 71%] [32m[1mLinking CXX shared library libsmoother_server_core.so[0m
+[68.782s] [ 71%] Built target smoother_server_core
+[68.895s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_smoother_server.dir/test_smoother_server.cpp.o[0m
+[68.918s] [ 85%] [32mBuilding CXX object CMakeFiles/smoother_server.dir/src/main.cpp.o[0m
+[87.596s] [ 92%] [32m[1mLinking CXX executable smoother_server[0m
+[88.918s] [ 92%] Built target smoother_server
+[102.308s] [100%] [32m[1mLinking CXX executable test_smoother_server[0m
+[103.493s] [100%] Built target test_smoother_server
+[103.541s] Invoked command in '/home/misaka/fishbot/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_smoother -- -j16 -l16
+[103.722s] Invoking command in '/home/misaka/fishbot/build/nav2_smoother': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_smoother
+[103.751s] -- Install configuration: "Release"
+[103.751s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/plugins.xml
+[103.752s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/lib/libsmoother_server_core.so
+[103.754s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_smoother/lib/libsmoother_server_core.so" to ""
+[103.756s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/lib/libsimple_smoother.so
+[103.757s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_smoother/lib/libsimple_smoother.so" to ""
+[103.758s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/lib/nav2_smoother/smoother_server
+[103.758s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_smoother/lib/nav2_smoother/smoother_server" to ""
+[103.759s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/include/
+[103.759s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/include//nav2_smoother
+[103.760s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/include//nav2_smoother/simple_smoother.hpp
+[103.760s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/include//nav2_smoother/nav2_smoother.hpp
+[103.761s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/environment/library_path.sh
+[103.762s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/environment/library_path.dsv
+[103.762s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_smoother
+[103.763s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_smoother
+[103.763s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.sh
+[103.764s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.dsv
+[103.764s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/environment/path.sh
+[103.766s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/environment/path.dsv
+[103.767s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/local_setup.bash
+[103.767s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/local_setup.sh
+[103.768s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/local_setup.zsh
+[103.768s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/local_setup.dsv
+[103.768s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/package.dsv
+[103.768s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/ament_index/resource_index/packages/nav2_smoother
+[103.768s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smoother
+[103.768s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/ament_index/resource_index/rclcpp_components/nav2_smoother
+[103.770s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[103.771s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[103.771s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.772s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig.cmake
+[103.774s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig-version.cmake
+[103.774s] -- Installing: /home/misaka/fishbot/install/nav2_smoother/share/nav2_smoother/package.xml
+[103.775s] Invoked command in '/home/misaka/fishbot/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_smoother

@@ -1,0 +1,7 @@
+[ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[ 14%] Built target nav2_rviz_plugins_autogen
+[ 28%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m

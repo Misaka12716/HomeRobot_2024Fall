@@ -1,0 +1,65 @@
+[0.075s] Invoking command in '/home/misaka/fishbot/build/nav2_map_server': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_map_server -- -j16 -l16
+[0.368s] [  5%] Built target gtest_main
+[0.379s] [ 11%] Built target gtest
+[0.405s] [ 19%] Built target map_io
+[0.535s] [ 27%] Built target test_map_saver_cli
+[0.559s] [ 36%] Built target test_map_saver_publisher
+[0.570s] [ 44%] Built target test_map_io
+[0.579s] [ 55%] Built target map_server_core
+[0.716s] [ 58%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[0.717s] [ 61%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[0.731s] [ 66%] Built target map_server
+[0.739s] [ 72%] Built target map_saver_cli
+[0.740s] [ 77%] Built target costmap_filter_info_server
+[0.741s] [ 83%] Built target map_saver_server
+[0.748s] [ 91%] Built target test_map_saver_node
+[25.686s] [ 94%] [32m[1mLinking CXX executable test_map_server_node[0m
+[26.677s] [ 97%] Built target test_map_server_node
+[38.454s] [100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[39.687s] [100%] Built target test_costmap_filter_info_server
+[39.732s] Invoked command in '/home/misaka/fishbot/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_map_server -- -j16 -l16
+[40.130s] Invoking command in '/home/misaka/fishbot/build/nav2_map_server': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_map_server
+[40.161s] -- Install configuration: "Release"
+[40.161s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/libmap_server_core.so
+[40.173s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[40.174s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/libmap_io.so
+[40.176s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/libmap_io.so" to ""
+[40.176s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_server
+[40.182s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[40.182s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[40.187s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[40.188s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[40.192s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[40.193s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[40.198s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[40.199s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/include/
+[40.200s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server
+[40.201s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[40.202s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[40.202s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[40.203s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[40.206s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[40.207s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/launch
+[40.207s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[40.209s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[40.209s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[40.212s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[40.214s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[40.216s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[40.217s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[40.219s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[40.221s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[40.223s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[40.224s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[40.227s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[40.229s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[40.232s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/package.dsv
+[40.235s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[40.236s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[40.237s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.239s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[40.241s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.244s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[40.246s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[40.248s] -- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/package.xml
+[40.268s] Invoked command in '/home/misaka/fishbot/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_map_server

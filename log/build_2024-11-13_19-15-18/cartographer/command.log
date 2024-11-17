@@ -1,0 +1,6 @@
+Invoking command in '/home/misaka/fishbot/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/misaka/fishbot/src/cartographer_code/cartographer -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/cartographer
+Invoked command in '/home/misaka/fishbot/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/misaka/fishbot/src/cartographer_code/cartographer -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/cartographer
+Invoking command in '/home/misaka/fishbot/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/misaka/fishbot/build/cartographer -- -j16 -l16
+Invoked command in '/home/misaka/fishbot/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/misaka/fishbot/build/cartographer -- -j16 -l16
+Invoking command in '/home/misaka/fishbot/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/misaka/fishbot/build/cartographer
+Invoked command in '/home/misaka/fishbot/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/misaka/fishbot/build/cartographer

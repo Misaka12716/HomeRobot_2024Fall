@@ -1,0 +1,36 @@
+[0.184s] Invoking command in '/home/misaka/fishbot/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_velocity_smoother -- -j16 -l16
+[0.565s] [ 30%] Built target gtest_main
+[0.570s] [ 40%] Built target gtest
+[0.571s] [ 60%] Built target velocity_smoother_core
+[0.954s] [ 80%] Built target velocity_smoother_tests
+[0.982s] [100%] Built target velocity_smoother
+[1.112s] Invoked command in '/home/misaka/fishbot/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_velocity_smoother -- -j16 -l16
+[1.514s] Invoking command in '/home/misaka/fishbot/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_velocity_smoother
+[1.554s] -- Install configuration: "Release"
+[1.555s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/lib/libvelocity_smoother_core.so
+[1.565s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/lib/nav2_velocity_smoother/velocity_smoother
+[1.566s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/include/
+[1.566s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/include//nav2_velocity_smoother
+[1.569s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/include//nav2_velocity_smoother/velocity_smoother.hpp
+[1.570s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/library_path.sh
+[1.571s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/library_path.dsv
+[1.572s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_velocity_smoother
+[1.573s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_velocity_smoother
+[1.574s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/ament_prefix_path.sh
+[1.575s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/ament_prefix_path.dsv
+[1.576s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/path.sh
+[1.576s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/path.dsv
+[1.577s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.bash
+[1.578s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.sh
+[1.578s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.zsh
+[1.579s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.dsv
+[1.581s] -- Installing: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/package.dsv
+[1.581s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/ament_index/resource_index/packages/nav2_velocity_smoother
+[1.582s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/ament_index/resource_index/rclcpp_components/nav2_velocity_smoother
+[1.583s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.585s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[1.586s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.587s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/nav2_velocity_smootherConfig.cmake
+[1.588s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/nav2_velocity_smootherConfig-version.cmake
+[1.588s] -- Up-to-date: /home/misaka/fishbot/install/nav2_velocity_smoother/share/nav2_velocity_smoother/package.xml
+[1.638s] Invoked command in '/home/misaka/fishbot/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_velocity_smoother

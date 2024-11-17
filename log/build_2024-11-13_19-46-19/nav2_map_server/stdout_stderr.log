@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  5%] Built target gtest_main
+[ 11%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target map_io[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_cli[0m
+[ 19%] Built target map_io
+[35m[1mConsolidate compiler generated dependencies of target test_map_io[0m
+[35m[1mConsolidate compiler generated dependencies of target map_server_core[0m
+[ 27%] Built target test_map_saver_cli
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_publisher[0m
+[ 36%] Built target test_map_io
+[ 47%] Built target map_server_core
+[ 55%] Built target test_map_saver_publisher
+[35m[1mConsolidate compiler generated dependencies of target map_saver_cli[0m
+[35m[1mConsolidate compiler generated dependencies of target map_saver_server[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_server_node[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_node[0m
+[35m[1mConsolidate compiler generated dependencies of target map_server[0m
+[ 58%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_filter_info_server[0m
+[ 61%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[ 66%] Built target map_saver_server
+[ 72%] Built target map_saver_cli
+[ 80%] Built target test_map_saver_node
+[ 86%] Built target map_server
+[ 91%] Built target costmap_filter_info_server

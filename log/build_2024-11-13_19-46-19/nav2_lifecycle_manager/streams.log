@@ -1,0 +1,46 @@
+[0.121s] Invoking command in '/home/misaka/fishbot/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_lifecycle_manager -- -j16 -l16
+[0.385s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target nav2_lifecycle_manager_core[0m
+[0.451s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.460s] [ 15%] Built target gtest_main
+[0.541s] [ 30%] Built target gtest
+[0.767s] [ 53%] Built target nav2_lifecycle_manager_core
+[0.894s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_gtest[0m
+[0.898s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_manager[0m
+[0.902s] [35m[1mConsolidate compiler generated dependencies of target test_bond_gtest[0m
+[1.108s] [ 69%] Built target test_lifecycle_gtest
+[1.162s] [ 84%] Built target test_bond_gtest
+[1.180s] [100%] Built target lifecycle_manager
+[1.298s] Invoked command in '/home/misaka/fishbot/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_lifecycle_manager -- -j16 -l16
+[1.798s] Invoking command in '/home/misaka/fishbot/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_lifecycle_manager
+[1.867s] -- Install configuration: "Release"
+[1.867s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[1.879s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so" to ""
+[1.886s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+[1.887s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager" to ""
+[1.888s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/include/
+[1.888s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager
+[1.892s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+[1.897s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+[1.898s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+[1.899s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+[1.908s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+[1.911s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+[1.913s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+[1.919s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+[1.930s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+[1.930s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+[1.932s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+[1.938s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+[1.950s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+[1.950s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+[1.951s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+[1.952s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+[1.956s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/ament_index/resource_index/rclcpp_components/nav2_lifecycle_manager
+[1.961s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.961s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[1.964s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.966s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+[1.968s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+[1.976s] -- Installing: /home/misaka/fishbot/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml
+[2.018s] Invoked command in '/home/misaka/fishbot/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_lifecycle_manager

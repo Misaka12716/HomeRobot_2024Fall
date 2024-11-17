@@ -1,0 +1,47 @@
+[0.120s] Invoking command in '/home/misaka/fishbot/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_common -- -j16 -l16
+[0.521s] Built target ament_cmake_python_copy_nav2_common
+[1.680s] running egg_info
+[1.682s] writing nav2_common.egg-info/PKG-INFO
+[1.683s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.683s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.695s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.697s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.804s] Built target ament_cmake_python_build_nav2_common_egg
+[1.856s] Invoked command in '/home/misaka/fishbot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_common -- -j16 -l16
+[2.170s] Invoking command in '/home/misaka/fishbot/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_common
+[2.226s] -- Install configuration: ""
+[2.233s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[2.234s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[2.234s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info
+[2.234s] -- Installing: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info/PKG-INFO
+[2.235s] -- Installing: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info/dependency_links.txt
+[2.235s] -- Installing: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info/SOURCES.txt
+[2.236s] -- Installing: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.0-py3.10.egg-info/top_level.txt
+[2.249s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[2.249s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[2.249s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[2.251s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[2.252s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[2.253s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[2.254s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[2.405s] Listing '/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[2.406s] Listing '/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[2.421s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[2.421s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[2.428s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[2.429s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[2.430s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/environment/path.sh
+[2.431s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/environment/path.dsv
+[2.431s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/local_setup.bash
+[2.434s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/local_setup.sh
+[2.435s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/local_setup.zsh
+[2.435s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/local_setup.dsv
+[2.435s] -- Installing: /home/misaka/fishbot/install/nav2_common/share/nav2_common/package.dsv
+[2.438s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[2.439s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[2.439s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[2.441s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[2.442s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/package.xml
+[2.443s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake
+[2.444s] -- Up-to-date: /home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[2.453s] Invoked command in '/home/misaka/fishbot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_common

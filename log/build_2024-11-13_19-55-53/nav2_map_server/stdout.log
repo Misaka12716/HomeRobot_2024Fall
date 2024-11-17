@@ -1,0 +1,61 @@
+[  5%] Built target gtest_main
+[ 11%] Built target gtest
+[ 19%] Built target map_io
+[ 27%] Built target test_map_saver_cli
+[ 36%] Built target test_map_saver_publisher
+[ 44%] Built target test_map_io
+[ 55%] Built target map_server_core
+[ 58%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[ 61%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[ 66%] Built target map_server
+[ 72%] Built target map_saver_cli
+[ 77%] Built target costmap_filter_info_server
+[ 83%] Built target map_saver_server
+[ 91%] Built target test_map_saver_node
+[ 94%] [32m[1mLinking CXX executable test_map_server_node[0m
+[ 97%] Built target test_map_server_node
+[100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[100%] Built target test_costmap_filter_info_server
+-- Install configuration: "Release"
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/libmap_server_core.so
+-- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/libmap_server_core.so" to ""
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/libmap_io.so
+-- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/libmap_io.so" to ""
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_server
+-- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+-- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+-- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+-- Set runtime path of "/home/misaka/fishbot/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/include/
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/launch
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/package.dsv
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+-- Installing: /home/misaka/fishbot/install/nav2_map_server/share/nav2_map_server/package.xml

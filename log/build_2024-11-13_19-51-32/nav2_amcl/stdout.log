@@ -1,0 +1,5 @@
+[ 20%] Built target map_lib
+[ 50%] Built target pf_lib
+[ 62%] Built target motions_lib
+[ 83%] Built target sensors_lib
+[ 87%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m

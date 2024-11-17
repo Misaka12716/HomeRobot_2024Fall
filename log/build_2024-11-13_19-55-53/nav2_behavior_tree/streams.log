@@ -1,0 +1,350 @@
+[0.104s] Invoking command in '/home/misaka/fishbot/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_behavior_tree -- -j16 -l16
+[0.462s] [  1%] Built target nav2_spin_cancel_bt_node
+[0.470s] [  3%] Built target nav2_controller_cancel_bt_node
+[0.470s] [  4%] Built target nav2_drive_on_heading_cancel_bt_node
+[0.472s] [  4%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.473s] [  5%] Built target nav2_back_up_cancel_bt_node
+[0.473s] [  7%] Built target nav2_wait_cancel_bt_node
+[0.474s] [  7%] Built target nav2_assisted_teleop_cancel_bt_node
+[0.474s] [  8%] Built target nav2_follow_path_action_bt_node
+[0.482s] [  9%] Built target nav2_behavior_tree
+[0.483s] [ 10%] Built target nav2_spin_action_bt_node
+[0.483s] [ 11%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.483s] [ 12%] Built target nav2_assisted_teleop_action_bt_node
+[0.484s] [ 13%] Built target nav2_back_up_action_bt_node
+[0.495s] [ 14%] Built target nav2_wait_action_bt_node
+[0.499s] [ 15%] Built target nav2_drive_on_heading_bt_node
+[0.506s] [ 16%] Built target nav2_smooth_path_action_bt_node
+[0.617s] [ 17%] Built target nav2_goal_updated_condition_bt_node
+[0.626s] [ 20%] Built target nav2_initial_pose_received_condition_bt_node
+[0.627s] [ 20%] Built target nav2_is_stuck_condition_bt_node
+[0.627s] [ 20%] Built target nav2_time_expired_condition_bt_node
+[0.627s] [ 21%] Built target nav2_goal_reached_condition_bt_node
+[0.627s] [ 22%] Built target nav2_globally_updated_goal_condition_bt_node
+[0.627s] [ 23%] Built target nav2_path_expiring_timer_condition
+[0.630s] [ 24%] Built target nav2_clear_costmap_service_bt_node
+[0.635s] [ 25%] Built target nav2_distance_traveled_condition_bt_node
+[0.636s] [ 26%] Built target nav2_rate_controller_bt_node
+[0.641s] [ 27%] Built target nav2_is_path_valid_condition_bt_node
+[0.645s] [ 29%] Built target nav2_is_battery_low_condition_bt_node
+[0.645s] [ 29%] Built target nav2_transform_available_condition_bt_node
+[0.654s] [ 31%] Built target nav2_distance_controller_bt_node
+[0.655s] [ 31%] Built target nav2_reinitialize_global_localization_service_bt_node
+[0.673s] [ 32%] Built target nav2_speed_controller_bt_node
+[0.764s] [ 33%] Built target nav2_round_robin_node_bt_node
+[0.771s] [ 34%] Built target nav2_goal_updater_node_bt_node
+[0.772s] [ 35%] Built target nav2_truncate_path_action_bt_node
+[0.774s] [ 36%] Built target nav2_pipeline_sequence_bt_node
+[0.777s] [ 37%] Built target nav2_single_trigger_bt_node
+[0.781s] [ 38%] Built target nav2_navigate_to_pose_action_bt_node
+[0.784s] [ 39%] Built target nav2_truncate_path_local_action_bt_node
+[0.785s] [ 40%] Built target nav2_recovery_node_bt_node
+[0.786s] [ 41%] Built target nav2_path_longer_on_approach_bt_node
+[0.794s] [ 42%] Built target nav2_navigate_through_poses_action_bt_node
+[0.800s] [ 44%] Built target nav2_remove_passed_goals_action_bt_node
+[0.800s] [ 44%] Built target nav2_goal_updated_controller_bt_node
+[0.806s] [ 45%] Built target nav2_goal_checker_selector_bt_node
+[0.808s] [ 47%] Built target nav2_planner_selector_bt_node
+[0.817s] [ 48%] Built target gtest_main
+[0.821s] [ 49%] Built target nav2_controller_selector_bt_node
+[0.901s] [ 50%] Built target gtest
+[1.067s] [ 51%] Built target test_condition_goal_updated
+[1.068s] [ 52%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[1.074s] [ 54%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[1.074s] [ 53%] Built target test_bt_conversions
+[1.086s] [ 55%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[1.088s] [ 56%] Built target test_condition_distance_traveled
+[1.094s] [ 57%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[1.095s] [ 58%] Built target test_condition_initial_pose_received
+[1.095s] [ 59%] Built target test_condition_goal_reached
+[1.096s] [ 60%] Built target test_condition_transform_available
+[1.096s] [ 61%] Built target test_condition_globally_updated_goal
+[1.096s] [ 62%] Built target test_condition_is_stuck
+[1.103s] [ 64%] Built target test_condition_path_expiring_timer
+[1.106s] [ 64%] Built target test_condition_time_expired
+[1.109s] [ 65%] Built target test_condition_is_path_valid
+[1.116s] [ 66%] Built target test_condition_is_battery_low
+[1.214s] [ 67%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[1.214s] [ 68%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o[0m
+[1.219s] [ 69%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o[0m
+[1.226s] [ 70%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o[0m
+[1.227s] [ 71%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[1.230s] [ 72%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o[0m
+[1.235s] [ 73%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[1.235s] [ 74%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o[0m
+[1.243s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o[0m
+[1.247s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o[0m
+[1.247s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o[0m
+[1.247s] [ 76%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_action.dir/test_assisted_teleop_action.cpp.o[0m
+[58.128s] [ 76%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[58.227s] [ 76%] [32m[1mLinking CXX executable test_goal_updated_controller[0m
+[58.488s] [ 77%] [32m[1mLinking CXX executable test_action_wait_action[0m
+[60.086s] [ 77%] Built target test_decorator_rate_controller
+[60.169s] [ 77%] Built target test_goal_updated_controller
+[60.178s] [ 77%] Built target test_action_wait_action
+[62.452s] [ 77%] [32m[1mLinking CXX executable test_action_drive_on_heading[0m
+[63.565s] [ 77%] Built target test_action_drive_on_heading
+[64.027s] [ 77%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[64.147s] [ 77%] [32m[1mLinking CXX executable test_single_trigger_node[0m
+[64.597s] [ 77%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[65.264s] [ 77%] Built target test_control_round_robin_node
+[65.354s] [ 77%] Built target test_single_trigger_node
+[65.840s] [ 77%] Built target test_decorator_distance_controller
+[66.810s] [ 77%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[67.439s] [ 77%] [32m[1mLinking CXX executable test_action_assisted_teleop_action[0m
+[67.737s] [ 77%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[68.091s] [ 77%] Built target test_control_recovery_node
+[68.570s] [ 77%] Built target test_action_assisted_teleop_action
+[68.958s] [ 77%] Built target test_goal_updater_node
+[69.452s] [ 77%] [32m[1mLinking CXX executable test_action_back_up_action[0m
+[70.134s] [ 77%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[70.251s] [ 78%] [32m[1mLinking CXX executable test_action_spin_action[0m
+[70.417s] [ 78%] Built target test_action_back_up_action
+[71.312s] [ 78%] Built target test_decorator_speed_controller
+[71.325s] [ 78%] Built target test_action_spin_action
+[71.446s] [ 79%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o[0m
+[71.452s] [ 80%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o[0m
+[71.455s] [ 81%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[72.513s] [ 82%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[73.598s] [ 83%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[74.273s] [ 83%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[74.669s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[75.489s] [ 84%] Built target test_control_pipeline_sequence
+[75.585s] [ 85%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[75.629s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o[0m
+[76.741s] [ 88%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o[0m
+[76.744s] [ 87%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_cancel_action.dir/test_assisted_teleop_cancel_node.cpp.o[0m
+[77.859s] [ 88%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o[0m
+[77.861s] [ 89%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o[0m
+[79.039s] [ 90%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o[0m
+[79.054s] [ 90%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o[0m
+[85.280s] [ 90%] [32m[1mLinking CXX executable test_decorator_path_longer_on_approach[0m
+[86.558s] [ 90%] Built target test_decorator_path_longer_on_approach
+[116.736s] [ 90%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[118.427s] [ 90%] Built target test_action_reinitialize_global_localization_service
+[119.385s] [ 90%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[120.476s] [ 90%] [32m[1mLinking CXX executable test_action_smooth_path_action[0m
+[120.729s] [ 90%] Built target test_action_navigate_to_pose_action
+[121.615s] [ 90%] Built target test_action_smooth_path_action
+[124.090s] [ 91%] [32m[1mLinking CXX executable test_action_spin_cancel_action[0m
+[125.279s] [ 91%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[125.464s] [ 91%] Built target test_action_spin_cancel_action
+[125.581s] [ 91%] [32m[1mLinking CXX executable test_action_navigate_through_poses_action[0m
+[126.578s] [ 91%] Built target test_action_follow_path_action
+[126.585s] [ 92%] [32m[1mLinking CXX executable test_action_wait_cancel_action[0m
+[126.937s] [ 92%] Built target test_action_navigate_through_poses_action
+[127.131s] [ 92%] [32m[1mLinking CXX executable test_action_back_up_cancel_action[0m
+[127.707s] [ 92%] [32m[1mLinking CXX executable test_action_drive_on_heading_cancel_action[0m
+[127.809s] [ 92%] Built target test_action_wait_cancel_action
+[128.127s] [ 92%] [32m[1mLinking CXX executable test_action_controller_cancel_action[0m
+[128.382s] [ 92%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[128.391s] [ 92%] Built target test_action_back_up_cancel_action
+[128.826s] [ 92%] [32m[1mLinking CXX executable test_action_assisted_teleop_cancel_action[0m
+[128.987s] [ 92%] Built target test_action_drive_on_heading_cancel_action
+[129.357s] [ 92%] Built target test_action_controller_cancel_action
+[129.632s] [ 92%] Built target test_action_clear_costmap_service
+[130.045s] [ 92%] Built target test_action_assisted_teleop_cancel_action
+[131.679s] [ 92%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[132.845s] [ 92%] Built target test_action_compute_path_to_pose_action
+[133.104s] [ 92%] [32m[1mLinking CXX executable test_action_compute_path_through_poses_action[0m
+[134.142s] [ 92%] Built target test_action_compute_path_through_poses_action
+[136.270s] [ 93%] [32m[1mLinking CXX executable test_bt_action_node[0m
+[137.292s] [ 93%] Built target test_bt_action_node
+[137.440s] [ 94%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o[0m
+[137.452s] [ 95%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o[0m
+[164.703s] [ 95%] [32m[1mLinking CXX executable test_goal_checker_selector_node[0m
+[164.741s] [ 95%] [32m[1mLinking CXX executable test_controller_selector_node[0m
+[165.627s] [ 95%] Built target test_goal_checker_selector_node
+[165.676s] [ 95%] Built target test_controller_selector_node
+[165.751s] [ 96%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o[0m
+[165.752s] [ 97%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o[0m
+[165.757s] [ 98%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[165.761s] [ 99%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o[0m
+[188.774s] [ 99%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[189.700s] [ 99%] Built target test_truncate_path_action
+[194.151s] [ 99%] [32m[1mLinking CXX executable test_planner_selector_node[0m
+[194.934s] [ 99%] [32m[1mLinking CXX executable test_remove_passed_goals_action[0m
+[195.070s] [ 99%] Built target test_planner_selector_node
+[195.920s] [ 99%] Built target test_remove_passed_goals_action
+[199.318s] [100%] [32m[1mLinking CXX executable test_truncate_path_local_action[0m
+[200.336s] [100%] Built target test_truncate_path_local_action
+[201.256s] Invoked command in '/home/misaka/fishbot/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_behavior_tree -- -j16 -l16
+[203.029s] Invoking command in '/home/misaka/fishbot/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_behavior_tree
+[203.060s] -- Install configuration: "Release"
+[203.063s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[203.068s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so" to ""
+[203.070s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[203.075s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so" to ""
+[203.075s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[203.079s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so" to ""
+[203.080s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[203.081s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so" to ""
+[203.082s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[203.084s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so" to ""
+[203.085s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[203.086s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so" to ""
+[203.087s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[203.089s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so" to ""
+[203.089s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[203.092s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so" to ""
+[203.092s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[203.094s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so" to ""
+[203.095s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[203.100s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so" to ""
+[203.102s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[203.105s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so" to ""
+[203.105s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[203.113s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so" to ""
+[203.114s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[203.119s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so" to ""
+[203.120s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[203.126s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so" to ""
+[203.127s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[203.134s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so" to ""
+[203.135s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[203.143s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so" to ""
+[203.145s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[203.148s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so" to ""
+[203.148s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[203.162s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so" to ""
+[203.163s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[203.168s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so" to ""
+[203.170s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[203.177s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so" to ""
+[203.177s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[203.182s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so" to ""
+[203.182s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[203.187s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so" to ""
+[203.188s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[203.195s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so" to ""
+[203.197s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[203.199s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so" to ""
+[203.200s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[203.206s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so" to ""
+[203.206s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[203.212s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so" to ""
+[203.213s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[203.217s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so" to ""
+[203.217s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[203.231s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so" to ""
+[203.232s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[203.234s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so" to ""
+[203.235s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[203.239s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so" to ""
+[203.241s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[203.244s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so" to ""
+[203.245s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[203.252s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so" to ""
+[203.252s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[203.255s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so" to ""
+[203.256s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[203.259s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so" to ""
+[203.260s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[203.273s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so" to ""
+[203.273s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[203.278s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so" to ""
+[203.279s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[203.282s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so" to ""
+[203.283s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[203.288s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so" to ""
+[203.288s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[203.293s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so" to ""
+[203.294s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[203.295s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so" to ""
+[203.296s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[203.302s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so" to ""
+[203.302s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[203.305s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so" to ""
+[203.305s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[203.309s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so" to ""
+[203.310s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[203.318s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so" to ""
+[203.319s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[203.325s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so" to ""
+[203.327s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[203.334s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so" to ""
+[203.334s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[203.340s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so" to ""
+[203.341s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include/
+[203.342s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree
+[203.342s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[203.342s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[203.343s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[203.344s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[203.346s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[203.348s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[203.349s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[203.351s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[203.352s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[203.353s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[203.353s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[203.354s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[203.356s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[203.357s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[203.358s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[203.359s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[203.360s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[203.361s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[203.363s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[203.365s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[203.367s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[203.368s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[203.369s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[203.371s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[203.373s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[203.373s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[203.374s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[203.376s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[203.378s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[203.379s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[203.379s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[203.380s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[203.382s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[203.384s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[203.385s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[203.386s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[203.387s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[203.388s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[203.390s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[203.390s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[203.391s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[203.392s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[203.394s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[203.396s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[203.397s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[203.399s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[203.401s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[203.403s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[203.405s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[203.407s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[203.409s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[203.411s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[203.412s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[203.413s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[203.414s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[203.416s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[203.417s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[203.418s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[203.420s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[203.422s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[203.431s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[203.436s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[203.444s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[203.448s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[203.456s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[203.458s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[203.461s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[203.463s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[203.464s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[203.466s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[203.468s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[203.470s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[203.472s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[203.476s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[203.477s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[203.481s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[203.485s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[203.489s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[203.491s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[203.493s] -- Installing: /home/misaka/fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[203.538s] Invoked command in '/home/misaka/fishbot/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_behavior_tree

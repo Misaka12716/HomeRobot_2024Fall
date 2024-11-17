@@ -1,0 +1,134 @@
+[0.065s] Invoking command in '/home/misaka/fishbot/build/cartographer_ros': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/cartographer_ros -- -j16 -l16
+[0.703s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[146.056s] [  5%] [32m[1mLinking CXX static library libcartographer_ros.a[0m
+[150.504s] [ 60%] Built target cartographer_ros
+[150.612s] [ 62%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[150.614s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[150.619s] [ 68%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[150.620s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[150.627s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[150.637s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[150.668s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[175.535s] [ 82%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[177.651s] [ 85%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[180.040s] [ 85%] Built target cartographer_pbstream_to_ros_map
+[181.413s] [ 88%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[182.694s] [ 91%] [32m[1mLinking CXX executable cartographer_node[0m
+[184.642s] [ 91%] Built target cartographer_assets_writer
+[186.651s] [ 94%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[189.111s] [ 94%] Built target cartographer_pbstream_map_publisher
+[190.430s] [ 94%] Built target cartographer_offline_node
+[190.772s] [ 97%] [32m[1mLinking CXX executable cartographer_rosbag_validate[0m
+[192.517s] [ 97%] Built target cartographer_rosbag_validate
+[195.194s] [ 97%] Built target cartographer_node
+[203.921s] [100%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[208.502s] [100%] Built target cartographer_occupancy_grid_node
+[208.555s] Invoked command in '/home/misaka/fishbot/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/cartographer_ros -- -j16 -l16
+[209.289s] Invoking command in '/home/misaka/fishbot/build/cartographer_ros': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/cartographer_ros
+[209.347s] -- Install configuration: ""
+[209.348s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/lib/libcartographer_ros.a
+[209.679s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[209.754s] -- Set runtime path of "/home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""
+[209.754s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[209.785s] -- Set runtime path of "/home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node" to ""
+[209.787s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[209.894s] -- Set runtime path of "/home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node" to ""
+[209.894s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[209.912s] -- Set runtime path of "/home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer" to ""
+[209.913s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[209.925s] -- Set runtime path of "/home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher" to ""
+[209.925s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[209.932s] -- Set runtime path of "/home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map" to ""
+[209.933s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[209.942s] -- Set runtime path of "/home/misaka/fishbot/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate" to ""
+[209.942s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include/
+[209.943s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros
+[209.944s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[209.945s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[209.946s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[209.947s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[209.948s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[209.948s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/node.h
+[209.949s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[209.949s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/metrics
+[209.949s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[209.949s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/metrics/internal
+[209.949s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[209.949s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[209.950s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[209.950s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[209.951s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[209.952s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[209.953s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[209.954s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/node_options.h
+[209.955s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[209.955s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/submap.h
+[209.956s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[209.957s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[209.957s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[209.958s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[209.958s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files
+[209.959s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[209.960s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[209.960s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[209.961s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[209.961s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[209.963s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[209.964s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[209.964s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[209.964s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[209.965s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[209.965s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[209.965s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[209.966s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[209.966s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[209.967s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[209.967s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[209.967s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[209.968s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[209.968s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//urdf
+[209.968s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[209.968s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[209.969s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[209.969s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch
+[209.970s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[209.971s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[209.971s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[209.972s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[209.972s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[209.972s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[209.972s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[209.973s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[209.973s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[209.973s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[209.973s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[209.974s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[209.974s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[209.974s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[209.975s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[209.975s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[209.976s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[209.977s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[209.977s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[209.978s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[209.978s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[209.978s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[209.981s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[209.983s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[209.985s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[209.987s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[209.989s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[209.991s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[209.993s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[209.995s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[209.997s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[209.998s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[209.999s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/package.dsv
+[210.002s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[210.002s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[210.004s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[210.006s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[210.007s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[210.008s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[210.011s] -- Installing: /home/misaka/fishbot/install/cartographer_ros/share/cartographer_ros/package.xml
+[210.017s] Invoked command in '/home/misaka/fishbot/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/cartographer_ros

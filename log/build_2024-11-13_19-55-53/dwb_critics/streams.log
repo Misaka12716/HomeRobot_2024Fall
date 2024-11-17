@@ -1,0 +1,133 @@
+[0.303s] Invoking command in '/home/misaka/fishbot/build/dwb_critics': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/dwb_core/lib:/home/misaka/fishbot/install/costmap_queue/lib:/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/dwb_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_dwb_controller/dwb_critics -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/dwb_critics
+[0.590s] -- The C compiler identification is GNU 11.4.0
+[0.868s] -- The CXX compiler identification is GNU 11.4.0
+[0.904s] -- Detecting C compiler ABI info
+[1.244s] -- Detecting C compiler ABI info - done
+[1.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.271s] -- Detecting C compile features
+[1.273s] -- Detecting C compile features - done
+[1.286s] -- Detecting CXX compiler ABI info
+[1.654s] -- Detecting CXX compiler ABI info - done
+[1.685s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.687s] -- Detecting CXX compile features
+[1.688s] -- Detecting CXX compile features - done
+[1.719s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.813s] -- Found nav2_common: 1.1.0 (/home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake)
+[2.822s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[2.829s] -- Found nav2_costmap_2d: 1.1.0 (/home/misaka/fishbot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[3.029s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.052s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.094s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.647s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.662s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.195s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.309s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.501s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.550s] -- Looking for pthread.h
+[4.875s] -- Looking for pthread.h - found
+[4.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.204s] -- Found Threads: TRUE  
+[6.106s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.106s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.556s] -- Found costmap_queue: 1.1.0 (/home/misaka/fishbot/install/costmap_queue/share/costmap_queue/cmake)
+[6.565s] -- Found dwb_core: 1.1.0 (/home/misaka/fishbot/install/dwb_core/share/dwb_core/cmake)
+[6.941s] -- Setting build type to Release as none was specified.
+[9.655s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.018s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.082s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.084s] -- Configured cppcheck include dirs: /home/misaka/fishbot/src/navigation/nav2_dwb_controller/dwb_critics/include
+[10.084s] -- Configured cppcheck exclude dirs and/or files: 
+[10.093s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.093s] -- Configured cpplint exclude dirs and/or files: 
+[10.099s] -- Added test 'lint_cmake' to check CMake code style
+[10.112s] -- Added test 'uncrustify' to check C / C++ code style
+[10.112s] -- Configured uncrustify additional arguments: 
+[10.116s] -- Added test 'xmllint' to check XML markup files
+[10.125s] -- Configuring done
+[11.297s] -- Generating done
+[11.309s] -- Build files have been written to: /home/misaka/fishbot/build/dwb_critics
+[11.357s] Invoked command in '/home/misaka/fishbot/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/dwb_core/lib:/home/misaka/fishbot/install/costmap_queue/lib:/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/dwb_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_dwb_controller/dwb_critics -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/dwb_critics
+[11.366s] Invoking command in '/home/misaka/fishbot/build/dwb_critics': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/dwb_core/lib:/home/misaka/fishbot/install/costmap_queue/lib:/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/dwb_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/dwb_critics -- -j16 -l16
+[11.650s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.651s] [  7%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_dist.cpp.o[0m
+[11.652s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[11.652s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/alignment_util.cpp.o[0m
+[11.653s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_dist.cpp.o[0m
+[11.653s] [ 25%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/goal_align.cpp.o[0m
+[11.653s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/path_align.cpp.o[0m
+[11.654s] [ 11%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/map_grid.cpp.o[0m
+[11.663s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/base_obstacle.cpp.o[0m
+[11.699s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/obstacle_footprint.cpp.o[0m
+[11.731s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/oscillation.cpp.o[0m
+[11.735s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/twirling.cpp.o[0m
+[11.753s] [ 48%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/prefer_forward.cpp.o[0m
+[11.753s] [ 51%] [32mBuilding CXX object CMakeFiles/dwb_critics.dir/src/rotate_to_goal.cpp.o[0m
+[15.920s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[16.185s] [ 55%] Built target gtest_main
+[36.734s] [ 59%] [32m[1mLinking CXX shared library libdwb_critics.so[0m
+[37.701s] [ 59%] Built target dwb_critics
+[43.126s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[43.300s] [ 62%] Built target gtest
+[43.450s] [ 66%] [32mBuilding CXX object test/CMakeFiles/obstacle_footprint_tests.dir/obstacle_footprint_test.cpp.o[0m
+[43.461s] [ 74%] [32mBuilding CXX object test/CMakeFiles/alignment_util_tests.dir/alignment_util_test.cpp.o[0m
+[43.461s] [ 74%] [32mBuilding CXX object test/CMakeFiles/prefer_forward_tests.dir/prefer_forward_test.cpp.o[0m
+[43.461s] [ 77%] [32mBuilding CXX object test/CMakeFiles/base_obstacle_tests.dir/base_obstacle_test.cpp.o[0m
+[43.468s] [ 81%] [32mBuilding CXX object test/CMakeFiles/twirling_tests.dir/twirling_test.cpp.o[0m
+[58.890s] [ 85%] [32m[1mLinking CXX executable alignment_util_tests[0m
+[59.996s] [ 85%] Built target alignment_util_tests
+[67.862s] [ 88%] [32m[1mLinking CXX executable twirling_tests[0m
+[68.873s] [ 92%] [32m[1mLinking CXX executable base_obstacle_tests[0m
+[69.127s] [ 92%] Built target twirling_tests
+[70.036s] [ 92%] Built target base_obstacle_tests
+[70.094s] [ 96%] [32m[1mLinking CXX executable prefer_forward_tests[0m
+[70.246s] [100%] [32m[1mLinking CXX executable obstacle_footprint_tests[0m
+[71.237s] [100%] Built target prefer_forward_tests
+[71.426s] [100%] Built target obstacle_footprint_tests
+[71.477s] Invoked command in '/home/misaka/fishbot/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/dwb_core/lib:/home/misaka/fishbot/install/costmap_queue/lib:/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/dwb_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/dwb_critics -- -j16 -l16
+[71.898s] Invoking command in '/home/misaka/fishbot/build/dwb_critics': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/dwb_core/lib:/home/misaka/fishbot/install/costmap_queue/lib:/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/dwb_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/dwb_critics
+[71.936s] -- Install configuration: "Release"
+[71.937s] -- Installing: /home/misaka/fishbot/install/dwb_critics/lib/libdwb_critics.so
+[71.940s] -- Set runtime path of "/home/misaka/fishbot/install/dwb_critics/lib/libdwb_critics.so" to ""
+[71.941s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include/
+[71.942s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics
+[71.943s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/path_dist.hpp
+[71.944s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/obstacle_footprint.hpp
+[71.944s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/path_align.hpp
+[71.945s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/map_grid.hpp
+[71.946s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/twirling.hpp
+[71.946s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/line_iterator.hpp
+[71.946s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/goal_align.hpp
+[71.946s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/goal_dist.hpp
+[71.947s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/base_obstacle.hpp
+[71.947s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/prefer_forward.hpp
+[71.947s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/oscillation.hpp
+[71.947s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/rotate_to_goal.hpp
+[71.948s] -- Installing: /home/misaka/fishbot/install/dwb_critics/include//dwb_critics/alignment_util.hpp
+[71.948s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/default_critics.xml
+[71.950s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/environment/library_path.sh
+[71.953s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/environment/library_path.dsv
+[71.953s] -- Up-to-date: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/default_critics.xml
+[71.954s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/ament_index/resource_index/package_run_dependencies/dwb_critics
+[71.954s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/ament_index/resource_index/parent_prefix_path/dwb_critics
+[71.955s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.sh
+[71.956s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/environment/ament_prefix_path.dsv
+[71.956s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/environment/path.sh
+[71.956s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/environment/path.dsv
+[71.958s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/local_setup.bash
+[71.959s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/local_setup.sh
+[71.960s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/local_setup.zsh
+[71.960s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/local_setup.dsv
+[71.961s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/package.dsv
+[71.961s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/ament_index/resource_index/packages/dwb_critics
+[71.961s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/ament_index/resource_index/dwb_core__pluginlib__plugin/dwb_critics
+[71.962s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.963s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_libraries-extras.cmake
+[71.966s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.966s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig.cmake
+[71.966s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/cmake/dwb_criticsConfig-version.cmake
+[71.968s] -- Installing: /home/misaka/fishbot/install/dwb_critics/share/dwb_critics/package.xml
+[71.976s] Invoked command in '/home/misaka/fishbot/build/dwb_critics' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/dwb_core:/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/costmap_queue:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav_2d_utils:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/dwb_msgs:/home/misaka/fishbot/install/nav_2d_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/dwb_core/lib:/home/misaka/fishbot/install/costmap_queue/lib:/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav_2d_utils/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:/home/misaka/fishbot/install/dwb_msgs/lib:/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/dwb_critics

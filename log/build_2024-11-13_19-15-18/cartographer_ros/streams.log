@@ -1,0 +1,82 @@
+[0.133s] Invoking command in '/home/misaka/fishbot/build/cartographer_ros': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/cartographer_ros
+[0.549s] -- The C compiler identification is GNU 11.4.0
+[0.822s] -- The CXX compiler identification is GNU 11.4.0
+[0.892s] -- Detecting C compiler ABI info
+[1.303s] -- Detecting C compiler ABI info - done
+[1.336s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.339s] -- Detecting C compile features
+[1.342s] -- Detecting C compile features - done
+[1.363s] -- Detecting CXX compiler ABI info
+[1.802s] -- Detecting CXX compiler ABI info - done
+[1.836s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.837s] -- Detecting CXX compile features
+[1.841s] -- Detecting CXX compile features - done
+[1.900s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.006s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.560s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.780s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.811s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.888s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.991s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.234s] -- Looking for pthread.h
+[4.628s] -- Looking for pthread.h - found
+[4.628s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.982s] -- Found Threads: TRUE  
+[5.021s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[5.054s] -- Found required Ceres dependency: glog
+[5.056s] -- Found required Ceres dependency: gflags
+[5.062s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[5.118s] -- Found cartographer_ros_msgs: 2.0.9000 (/home/misaka/fishbot/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[5.454s] -- Checking for module 'eigen3'
+[5.536s] --   Found eigen3, version 3.4.0
+[5.698s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.698s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.846s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[5.850s] -- looking for PCL_COMMON
+[5.856s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.857s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[5.872s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.999s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.358s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.379s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.890s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.003s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.179s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.698s] -- Found rosbag2_cpp: 0.15.12 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[7.926s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[7.951s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[8.432s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[8.492s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[9.331s] -- Configuring done
+[10.296s] -- Generating done
+[10.304s] -- Build files have been written to: /home/misaka/fishbot/build/cartographer_ros
+[10.359s] Invoked command in '/home/misaka/fishbot/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/cartographer_code/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/cartographer_ros
+[10.372s] Invoking command in '/home/misaka/fishbot/build/cartographer_ros': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/cartographer_ros -- -j16 -l16
+[10.647s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[10.647s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[10.649s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[10.649s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[10.662s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[10.672s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[10.720s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[10.740s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o[0m
+[10.758s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o[0m
+[10.775s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o[0m
+[10.776s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o[0m
+[10.776s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o[0m
+[10.824s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o[0m
+[10.825s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o[0m
+[10.825s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o[0m
+[10.826s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o[0m
+[12.812s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o[0m
+[27.197s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[41.070s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m
+[41.224s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o[0m
+[320.705s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+[320.717s] compilation terminated.
+[320.749s] gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:132：CMakeFiles/cartographer_ros.dir/src/node.cpp.o] 错误 1
+[321.023s] gmake[1]: *** [CMakeFiles/Makefile2:151：CMakeFiles/cartographer_ros.dir/all] 错误 2
+[321.217s] gmake: *** [Makefile:146：all] 错误 2
+[329.985s] Invoked command in '/home/misaka/fishbot/build/cartographer_ros' returned '2': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs:/home/misaka/fishbot/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/misaka/fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/misaka/fishbot/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/misaka/fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/misaka/fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/cartographer_ros -- -j16 -l16

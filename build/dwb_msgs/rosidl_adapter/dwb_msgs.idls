@@ -1,0 +1,9 @@
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
+/home/misaka/fishbot/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl

@@ -1,0 +1,133 @@
+[0.151s] Invoking command in '/home/misaka/fishbot/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_waypoint_follower -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_waypoint_follower
+[0.405s] -- The C compiler identification is GNU 11.4.0
+[0.656s] -- The CXX compiler identification is GNU 11.4.0
+[0.692s] -- Detecting C compiler ABI info
+[1.052s] -- Detecting C compiler ABI info - done
+[1.054s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.055s] -- Detecting C compile features
+[1.055s] -- Detecting C compile features - done
+[1.068s] -- Detecting CXX compiler ABI info
+[1.408s] -- Detecting CXX compiler ABI info - done
+[1.443s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.445s] -- Detecting CXX compile features
+[1.447s] -- Detecting CXX compile features - done
+[1.504s] -- Found OpenCV version 4.5.4
+[1.523s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[2.179s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.734s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.759s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.798s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.088s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.100s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.475s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.570s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.743s] -- Looking for pthread.h
+[4.096s] -- Looking for pthread.h - found
+[4.096s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.419s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.423s] -- Found Threads: TRUE  
+[4.873s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.889s] -- Found nav2_common: 1.1.0 (/home/misaka/fishbot/install/nav2_common/share/nav2_common/cmake)
+[4.896s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.008s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.082s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.153s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.217s] -- Found nav2_msgs: 1.1.0 (/home/misaka/fishbot/install/nav2_msgs/share/nav2_msgs/cmake)
+[5.307s] -- Found nav2_util: 1.1.0 (/home/misaka/fishbot/install/nav2_util/share/nav2_util/cmake)
+[5.517s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.523s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.524s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.626s] -- Found nav2_core: 1.1.0 (/home/misaka/fishbot/install/nav2_core/share/nav2_core/cmake)
+[5.920s] -- Setting build type to Release as none was specified.
+[6.663s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.673s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.018s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.362s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.380s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.387s] -- Configured cppcheck include dirs: /home/misaka/fishbot/src/navigation/nav2_waypoint_follower/include
+[7.388s] -- Configured cppcheck exclude dirs and/or files: 
+[7.388s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.389s] -- Configured cpplint exclude dirs and/or files: 
+[7.389s] -- Added test 'lint_cmake' to check CMake code style
+[7.394s] -- Added test 'uncrustify' to check C / C++ code style
+[7.395s] -- Configured uncrustify additional arguments: 
+[7.396s] -- Added test 'xmllint' to check XML markup files
+[7.422s] -- Configuring done
+[8.919s] -- Generating done
+[8.942s] -- Build files have been written to: /home/misaka/fishbot/build/nav2_waypoint_follower
+[8.958s] Invoked command in '/home/misaka/fishbot/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/misaka/fishbot/src/navigation/nav2_waypoint_follower -DCMAKE_INSTALL_PREFIX=/home/misaka/fishbot/install/nav2_waypoint_follower
+[8.963s] Invoking command in '/home/misaka/fishbot/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_waypoint_follower -- -j16 -l16
+[9.172s] [  5%] [32mBuilding CXX object CMakeFiles/wait_at_waypoint.dir/plugins/wait_at_waypoint.cpp.o[0m
+[9.174s] [ 11%] [32mBuilding CXX object CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o[0m
+[9.180s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.186s] [ 22%] [32mBuilding CXX object CMakeFiles/input_at_waypoint.dir/plugins/input_at_waypoint.cpp.o[0m
+[9.190s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.191s] [ 33%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[12.278s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.455s] [ 38%] Built target gtest_main
+[22.580s] [ 44%] [32m[1mLinking CXX shared library libwait_at_waypoint.so[0m
+[23.781s] [ 44%] Built target wait_at_waypoint
+[38.402s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[38.622s] [ 50%] Built target gtest
+[47.994s] [ 55%] [32m[1mLinking CXX shared library libinput_at_waypoint.so[0m
+[49.116s] [ 55%] Built target input_at_waypoint
+[54.946s] [ 61%] [32m[1mLinking CXX shared library libphoto_at_waypoint.so[0m
+[56.196s] [ 61%] Built target photo_at_waypoint
+[58.652s] [ 66%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
+[59.838s] [ 66%] Built target waypoint_follower_core
+[59.955s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_task_executors.dir/test_task_executors.cpp.o[0m
+[59.961s] [ 77%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
+[59.962s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[76.027s] [ 88%] [32m[1mLinking CXX executable waypoint_follower[0m
+[77.409s] [ 88%] Built target waypoint_follower
+[80.161s] [ 94%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[81.495s] [ 94%] Built target test_dynamic_parameters
+[94.848s] [100%] [32m[1mLinking CXX executable test_task_executors[0m
+[97.578s] [100%] Built target test_task_executors
+[97.621s] Invoked command in '/home/misaka/fishbot/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_waypoint_follower -- -j16 -l16
+[97.834s] Invoking command in '/home/misaka/fishbot/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_waypoint_follower
+[97.897s] -- Install configuration: "Release"
+[97.898s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[97.910s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so" to ""
+[97.910s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/lib/libwait_at_waypoint.so
+[97.911s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_waypoint_follower/lib/libwait_at_waypoint.so" to ""
+[97.912s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/lib/libphoto_at_waypoint.so
+[97.912s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_waypoint_follower/lib/libphoto_at_waypoint.so" to ""
+[97.912s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/lib/libinput_at_waypoint.so
+[97.912s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_waypoint_follower/lib/libinput_at_waypoint.so" to ""
+[97.912s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[97.931s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower" to ""
+[97.931s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/include/
+[97.931s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/include//nav2_waypoint_follower
+[97.931s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[97.931s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins
+[97.931s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/input_at_waypoint.hpp
+[97.932s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/wait_at_waypoint.hpp
+[97.932s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/photo_at_waypoint.hpp
+[97.932s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.sh
+[97.933s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.dsv
+[97.933s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/plugins.xml
+[97.933s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[97.934s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[97.934s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[97.934s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[97.937s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[97.938s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[97.938s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[97.939s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[97.940s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[97.941s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[97.941s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[97.942s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[97.942s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/ament_index/resource_index/nav2_waypoint_follower__pluginlib__plugin/nav2_waypoint_follower
+[97.943s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/ament_index/resource_index/rclcpp_components/nav2_waypoint_follower
+[97.943s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[97.944s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_libraries-extras.cmake
+[97.944s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[97.945s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[97.946s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[97.946s] -- Installing: /home/misaka/fishbot/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[97.947s] Invoked command in '/home/misaka/fishbot/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_core:/home/misaka/fishbot/install/nav2_costmap_2d:/home/misaka/fishbot/install/nav2_map_server:/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_voxel_grid:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_costmap_2d/lib:/home/misaka/fishbot/install/nav2_map_server/lib:/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_voxel_grid/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_waypoint_follower

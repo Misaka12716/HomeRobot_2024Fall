@@ -1,0 +1,68 @@
+[0.080s] Invoking command in '/home/misaka/fishbot/build/nav2_amcl': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_amcl -- -j16 -l16
+[0.351s] [ 20%] Built target map_lib
+[0.359s] [ 50%] Built target pf_lib
+[0.481s] [ 70%] Built target sensors_lib
+[0.482s] [ 83%] Built target motions_lib
+[0.606s] [ 87%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m
+[101.731s] [ 91%] [32m[1mLinking CXX shared library libamcl_core.so[0m
+[103.279s] [ 91%] Built target amcl_core
+[103.400s] [ 95%] [32mBuilding CXX object CMakeFiles/amcl.dir/src/main.cpp.o[0m
+[117.722s] [100%] [32m[1mLinking CXX executable amcl[0m
+[118.784s] [100%] Built target amcl
+[118.834s] Invoked command in '/home/misaka/fishbot/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_amcl -- -j16 -l16
+[119.051s] Invoking command in '/home/misaka/fishbot/build/nav2_amcl': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_amcl
+[119.093s] -- Install configuration: "Release"
+[119.094s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/lib/libamcl_core.so
+[119.106s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_amcl/lib/libamcl_core.so" to ""
+[119.106s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/lib/nav2_amcl/amcl
+[119.110s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_amcl/lib/nav2_amcl/amcl" to ""
+[119.110s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include/
+[119.110s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl
+[119.110s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/motion_model
+[119.110s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp
+[119.112s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[119.113s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp
+[119.115s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[119.116s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/map
+[119.117s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[119.118s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/pf
+[119.118s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[119.119s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[119.119s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[119.119s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[119.119s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[119.120s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[119.121s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp
+[119.121s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/sensors
+[119.121s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/sensors/laser
+[119.122s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[119.122s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[119.123s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[119.125s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/plugins.xml
+[119.127s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[119.129s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[119.132s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[119.132s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[119.134s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[119.135s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[119.137s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[119.139s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[119.141s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[119.142s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[119.144s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/package.dsv
+[119.147s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[119.149s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl
+[119.150s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl
+[119.152s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[119.154s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[119.156s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[119.157s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[119.159s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[119.161s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/share/nav2_amcl/package.xml
+[119.163s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/lib/libpf_lib.so
+[119.166s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/lib/libmap_lib.so
+[119.169s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/lib/libmotions_lib.so
+[119.175s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_amcl/lib/libmotions_lib.so" to ""
+[119.176s] -- Installing: /home/misaka/fishbot/install/nav2_amcl/lib/libsensors_lib.so
+[119.178s] -- Set runtime path of "/home/misaka/fishbot/install/nav2_amcl/lib/libsensors_lib.so" to ""
+[119.185s] Invoked command in '/home/misaka/fishbot/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/nav2_amcl

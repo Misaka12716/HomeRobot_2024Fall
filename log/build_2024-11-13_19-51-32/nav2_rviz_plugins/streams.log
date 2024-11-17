@@ -1,0 +1,8 @@
+[0.206s] Invoking command in '/home/misaka/fishbot/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav2_lifecycle_manager:/home/misaka/fishbot/install/nav2_util:/home/misaka/fishbot/install/nav2_msgs:/home/misaka/fishbot/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav2_lifecycle_manager/lib:/home/misaka/fishbot/install/nav2_util/lib:/home/misaka/fishbot/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/misaka/fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/nav2_rviz_plugins -- -j16 -l16
+[0.909s] [ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[1.189s] [ 14%] Built target nav2_rviz_plugins_autogen
+[1.445s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[1.465s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o[0m
+[1.480s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[1.500s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o[0m
+[1.504s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m

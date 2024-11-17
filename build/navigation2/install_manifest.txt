@@ -1,0 +1,15 @@
+/home/misaka/fishbot/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+/home/misaka/fishbot/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+/home/misaka/fishbot/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+/home/misaka/fishbot/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+/home/misaka/fishbot/install/navigation2/share/navigation2/environment/path.sh
+/home/misaka/fishbot/install/navigation2/share/navigation2/environment/path.dsv
+/home/misaka/fishbot/install/navigation2/share/navigation2/local_setup.bash
+/home/misaka/fishbot/install/navigation2/share/navigation2/local_setup.sh
+/home/misaka/fishbot/install/navigation2/share/navigation2/local_setup.zsh
+/home/misaka/fishbot/install/navigation2/share/navigation2/local_setup.dsv
+/home/misaka/fishbot/install/navigation2/share/navigation2/package.dsv
+/home/misaka/fishbot/install/navigation2/share/ament_index/resource_index/packages/navigation2
+/home/misaka/fishbot/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+/home/misaka/fishbot/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+/home/misaka/fishbot/install/navigation2/share/navigation2/package.xml

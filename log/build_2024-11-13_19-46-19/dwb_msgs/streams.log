@@ -1,0 +1,331 @@
+[0.066s] Invoking command in '/home/misaka/fishbot/build/dwb_msgs': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/dwb_msgs -- -j16 -l16
+[0.335s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_generator_c[0m
+[0.382s] [  1%] Built target dwb_msgs__cpp
+[0.416s] [ 12%] Built target dwb_msgs__rosidl_generator_c
+[0.475s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_cpp[0m
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.486s] [ 12%] Built target ament_cmake_python_copy_dwb_msgs
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.500s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_c[0m
+[0.515s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.516s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_c[0m
+[0.580s] [ 24%] Built target dwb_msgs__rosidl_typesupport_cpp
+[0.586s] [ 35%] Built target dwb_msgs__rosidl_typesupport_c
+[0.598s] [ 47%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[0.606s] [ 58%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[0.622s] [ 70%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[0.640s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[0.912s] [ 82%] Built target dwb_msgs
+[1.089s] [ 83%] Built target dwb_msgs__py
+[1.155s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_generator_py[0m
+[1.308s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[1.396s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.426s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.426s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_c__pyext[0m
+[1.487s] [ 95%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.534s] [ 97%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[1.564s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[2.151s] running egg_info
+[2.155s] writing dwb_msgs.egg-info/PKG-INFO
+[2.157s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[2.160s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[2.175s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[2.191s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[2.339s] [100%] Built target ament_cmake_python_build_dwb_msgs_egg
+[2.420s] Invoked command in '/home/misaka/fishbot/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/misaka/fishbot/build/dwb_msgs -- -j16 -l16
+[4.724s] Invoking command in '/home/misaka/fishbot/build/dwb_msgs': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/dwb_msgs
+[4.773s] -- Install configuration: ""
+[4.775s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[4.779s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[4.780s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[4.781s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[4.782s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[4.783s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[4.784s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[4.785s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[4.787s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[4.787s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[4.787s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[4.787s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[4.787s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[4.788s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.c
+[4.791s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.c
+[4.791s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[4.791s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[4.791s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[4.792s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[4.792s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[4.792s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[4.792s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[4.792s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[4.793s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.c
+[4.793s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[4.793s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[4.793s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[4.793s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[4.793s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[4.794s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[4.794s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.794s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[4.795s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[4.795s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[4.795s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[4.795s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.c
+[4.795s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[4.796s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.c
+[4.800s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[4.803s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[4.805s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[4.806s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[4.808s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[4.809s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[4.810s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[4.811s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[4.811s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[4.813s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[4.816s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[4.816s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[4.817s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[4.818s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[4.818s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[4.818s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[4.819s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[4.819s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[4.819s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[4.819s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[4.819s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[4.819s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[4.819s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[4.819s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[4.820s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[4.822s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[4.823s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.823s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[4.824s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[4.825s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[4.825s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[4.825s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[4.826s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[4.826s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[4.827s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[4.827s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[4.829s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[4.833s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[4.834s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[4.834s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[4.834s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[4.835s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[4.835s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[4.835s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[4.836s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[4.837s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[4.839s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[4.840s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[4.841s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[4.842s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[4.843s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[4.844s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[4.845s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[4.848s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[4.849s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[4.849s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[4.849s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[4.849s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[4.850s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[4.850s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[4.851s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[4.851s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[4.852s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[4.852s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[4.853s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[4.854s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[4.854s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[4.855s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[4.855s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[4.856s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[4.856s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[4.856s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[4.857s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[4.857s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[4.857s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[4.858s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[4.858s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[4.859s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[4.859s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[4.859s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/dds_fastrtps
+[4.859s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[4.859s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[4.859s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[4.859s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[4.859s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[4.860s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/dds_fastrtps
+[4.860s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[4.860s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[4.860s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[4.861s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.863s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.863s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.864s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[4.864s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[4.864s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[4.864s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[4.864s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[4.865s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[4.865s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[4.866s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[4.866s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[4.867s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[4.867s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[4.867s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[4.868s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[4.869s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[4.869s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[4.870s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[4.870s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[4.871s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[4.871s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[4.871s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[4.872s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[4.873s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[4.873s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[4.874s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.875s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[4.875s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[4.876s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[4.876s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[4.878s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[4.878s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[4.879s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[4.879s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[4.880s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[4.881s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[4.882s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[4.882s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[4.882s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[4.883s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[4.883s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[4.883s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[4.883s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[4.883s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[4.883s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.884s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[4.884s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[4.884s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[4.885s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[4.885s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[4.885s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[4.886s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[4.887s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[4.887s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[4.887s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[4.888s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info
+[4.888s] -- Installing: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info/PKG-INFO
+[4.888s] -- Installing: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info/dependency_links.txt
+[4.889s] -- Installing: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info/SOURCES.txt
+[4.889s] -- Installing: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.0-py3.10.egg-info/top_level.txt
+[4.889s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs
+[4.889s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/libdwb_msgs__rosidl_generator_py.so
+[4.890s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[4.891s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.893s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv
+[4.894s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py
+[4.894s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py
+[4.895s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists_s.c
+[4.895s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score_s.c
+[4.895s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory_s.c
+[4.896s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py
+[4.896s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py
+[4.896s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[4.896s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py
+[4.896s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score_s.c
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score_s.c
+[4.897s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[4.898s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py
+[4.898s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[4.898s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[4.898s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py
+[4.899s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py
+[4.899s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.005s] Listing '/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs'...
+[5.005s] Listing '/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg'...
+[5.006s] Listing '/home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv'...
+[5.026s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.030s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.036s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.042s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[5.043s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[5.043s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[5.043s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[5.044s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[5.045s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[5.046s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[5.048s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[5.050s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[5.051s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[5.053s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[5.054s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[5.055s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[5.056s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[5.056s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[5.056s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[5.056s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[5.056s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[5.056s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[5.056s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[5.057s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[5.057s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[5.057s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[5.057s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[5.057s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[5.058s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[5.059s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[5.061s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[5.062s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[5.062s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[5.062s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[5.064s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[5.065s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[5.065s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[5.066s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[5.067s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[5.067s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[5.067s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[5.068s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[5.069s] -- Installing: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/package.dsv
+[5.070s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[5.071s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[5.073s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.075s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.076s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.076s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[5.077s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.077s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.077s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.077s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.078s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[5.078s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.079s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.081s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.082s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[5.084s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.086s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[5.088s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.089s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[5.089s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.089s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.090s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.090s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.090s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.091s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.091s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[5.092s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[5.093s] -- Up-to-date: /home/misaka/fishbot/install/dwb_msgs/share/dwb_msgs/package.xml
+[5.102s] Invoked command in '/home/misaka/fishbot/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/misaka/fishbot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/misaka/fishbot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/misaka/fishbot/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/misaka/fishbot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/misaka/fishbot/build/dwb_msgs
