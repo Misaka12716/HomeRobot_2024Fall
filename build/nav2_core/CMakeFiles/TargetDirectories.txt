@@ -1,9 +1,0 @@
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/uninstall.dir
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/nav2_core_uninstall.dir
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/test.dir
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/edit_cache.dir
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/rebuild_cache.dir
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/list_install_components.dir
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/install.dir
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/install/local.dir
-/home/misaka/fishbot/build/nav2_core/CMakeFiles/install/strip.dir
